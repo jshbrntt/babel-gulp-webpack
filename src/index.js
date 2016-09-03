@@ -1,2 +1,2 @@
 import TestAlert from './test-alert';
-window.alert = new TestAlert('Tada!');
+window.alert = new TestAlert('Test!');
