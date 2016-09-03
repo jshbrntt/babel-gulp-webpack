@@ -1,0 +1,34 @@
+{
+  "name": "babel-gulp-webpack",
+  "version": "0.0.0",
+  "description": "An example of how to use Babel, Gulp and Webpack together.",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/synthecypher/babel-gulp-webpack.git"
+  },
+  "keywords": [
+    "webpack",
+    "gulp",
+    "babel"
+  ],
+  "author": "Joshua Barnett <jbacontrol@gmail.com>",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/synthecypher/babel-gulp-webpack/issues"
+  },
+  "homepage": "https://github.com/synthecypher/babel-gulp-webpack#readme",
+  "devDependencies": {
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.7",
+    "html-webpack-plugin": "^2.22.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1"
+  }
+}
